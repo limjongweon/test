@@ -725,6 +725,23 @@ h4 {
     font-size: 0.95rem;
 }
 
+.business-info {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.business-info p {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--neutral-400);
+}
+
+.business-info strong {
+    color: var(--accent-gold);
+    font-weight: 500;
+}
+
 .footer-legal h4 {
     color: var(--neutral-100);
     margin-bottom: 1rem;
