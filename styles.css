@@ -398,6 +398,7 @@ h4 {
     width: 100%;
     height: auto;
     display: block;
+    object-fit: cover;
 }
 
 .method-grid {
@@ -836,6 +837,12 @@ h4 {
     .hero-cta-group .cta-button-outline {
         width: 100%;
         max-width: 300px;
+    }
+
+    /* Mobile Image Optimization */
+    .cashflow-image-container {
+        margin: 1.5rem 0 2rem;
+        border-radius: 8px;
     }
 }
 
