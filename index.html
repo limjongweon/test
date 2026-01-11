@@ -25,6 +25,31 @@
 </head>
 
 <body>
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <h1>한국경제금융교육원</h1>
+                <p>Korea Economic & Financial Education Institute</p>
+            </div>
+
+            <nav class="nav" id="nav">
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#about">소개</a></li>
+                    <li><a href="#program">교육 과정</a></li>
+                    <li><a href="#certification">자격증</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="https://open.kakao.com/o/skDfBzGd" target="_blank" class="contact-btn">문의하기</a></li>
+                </ul>
+                <button class="hamburger" id="hamburger" aria-label="메뉴">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
     <!-- Hero Section -->
     <section class="hero" id="hero">
         <div class="hero-overlay"></div>
@@ -38,12 +63,16 @@
                 <div class="highlight-item">전 연령대 맞춤 교육 프로그램</div>
                 <div class="highlight-item">민간자격 '경제교육지도사' 체계 준비 중</div>
             </div>
-            <a href="#philosophy" class="cta-button">교육 철학 살펴보기</a>
+            <div class="hero-cta-group">
+                <a href="#about" class="cta-button">더 알아보기</a>
+                <a href="https://open.kakao.com/o/skDfBzGd" target="_blank" class="cta-button cta-button-outline">카카오톡
+                    문의하기</a>
+            </div>
         </div>
     </section>
 
-    <!-- 교육 철학 Section -->
-    <section class="philosophy" id="philosophy">
+    <!-- 소개 Section -->
+    <section class="philosophy" id="about">
         <div class="container">
             <h2 class="section-title">왜 '체험형' 경제교육인가?</h2>
             <p class="section-subtitle">경제는 개념이 아니라 흐름입니다.<br>수입과 지출, 자산과 부채가 서로 어떻게 연결되는지,<br>우리는 그 흐름을 몸으로 느끼는 교육을
@@ -69,8 +98,8 @@
         </div>
     </section>
 
-    <!-- 방법론 Section -->
-    <section class="methodology" id="methodology">
+    <!-- 교육 과정 Section -->
+    <section class="methodology" id="program">
         <div class="container">
             <h2 class="section-title">캐쉬플로우 보드게임,<br>경제교육의 새로운 언어</h2>
             <p class="section-subtitle">로버트 기요사키의 캐쉬플로우 게임을 교육 현장에 적용하여,<br>단순 재테크를 넘어선 '돈의 흐름' 이해를 돕습니다.</p>
